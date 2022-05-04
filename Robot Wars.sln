@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "src\Robot-Wars\Runner.csproj", "{606764AA-C777-4B67-A6B9-7E5660E88B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D8DEF1F1-F345-4B7D-9282-77B831A36B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner.Tests", "tests\Runner.Tests\Runner.Tests.csproj", "{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{606764AA-C777-4B67-A6B9-7E5660E88B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606764AA-C777-4B67-A6B9-7E5660E88B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606764AA-C777-4B67-A6B9-7E5660E88B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606764AA-C777-4B67-A6B9-7E5660E88B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5FF69F6-8EC5-47E8-839B-7A8AE41DB2E4} = {D8DEF1F1-F345-4B7D-9282-77B831A36B5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FD0CB27-2CC3-4496-8C88-ACF2584EA928}
+	EndGlobalSection
+EndGlobal
